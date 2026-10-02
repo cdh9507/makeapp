@@ -47,7 +47,7 @@ fun HomeScreen(words: List<Word>, progress: ProgressStore, navigate: (Screen) ->
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("중학 영단어", fontWeight = FontWeight.Bold) },
+                title = { Text("실전 영단어", fontWeight = FontWeight.Bold) },
                 actions = { TextButton(onClick = { showReset = true }) { Text("초기화") } },
             )
         },
