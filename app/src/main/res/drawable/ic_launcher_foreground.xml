@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 왼쪽 페이지 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,38 Q42,34 52,40 L52,74 Q42,68 30,72 Z" />
+    <!-- 오른쪽 페이지 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,40 Q66,34 78,38 L78,72 Q66,68 56,74 Z" />
+    <!-- 글자 줄 -->
+    <path
+        android:strokeColor="#FF7043"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M35,47 L47,47 M35,54 L47,54 M35,61 L44,61 M61,47 L73,47 M61,54 L73,54 M61,61 L70,61" />
+</vector>
